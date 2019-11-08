@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>芋畑</title>
+  
+  
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="http://jaga.immo/"/>
+  <updated>2019-11-08T17:02:08.647Z</updated>
+  <id>http://jaga.immo/</id>
+  
+  <author>
+    <name>Issen Rin</name>
+    
+  </author>
+  
+  <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>新土豆田</title>
+    <link href="http://jaga.immo/2019/11/09/%E6%96%B0%E5%9C%9F%E8%B1%86%E7%94%B0/"/>
+    <id>http://jaga.immo/2019/11/09/新土豆田/</id>
+    <published>2019-11-08T16:57:48.000Z</published>
+    <updated>2019-11-08T17:02:08.647Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="我的新土豆田"><a href="#我的新土豆田" class="headerlink" title="我的新土豆田"></a>我的新土豆田</h2><p>之前的博客狗带了，于是乎我决定直接在<a href="https://github.com" target="_blank" rel="noopener">Gayhub</a>上用Haxe.js搓一个新的博客，这个博客主要呢就是发些菜谱啊自己的新玩具啊吐槽啊之类的，还有一些芯片的踩坑填坑日志。</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;h2 id=&quot;我的新土豆田&quot;&gt;&lt;a href=&quot;#我的新土豆田&quot; class=&quot;headerlink&quot; title=&quot;我的新土豆田&quot;&gt;&lt;/a&gt;我的新土豆田&lt;/h2&gt;&lt;p&gt;之前的博客狗带了，于是乎我决定直接在&lt;a href=&quot;https://github.com&quot; target=
+      
+    
+    </summary>
+    
+    
+    
+      <category term="hello-world" scheme="http://jaga.immo/tags/hello-world/"/>
+    
+  </entry>
+  
+</feed>

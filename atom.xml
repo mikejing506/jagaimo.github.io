@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jaga.immo/"/>
-  <updated>2019-11-08T17:15:57.420Z</updated>
+  <updated>2019-11-09T07:10:03.670Z</updated>
   <id>http://jaga.immo/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>全志Tina SDK巨坑</title>
+    <link href="http://jaga.immo/2019/11/09/%E5%85%A8%E5%BF%97Tina-SDK%E5%B7%A8%E5%9D%91/"/>
+    <id>http://jaga.immo/2019/11/09/全志Tina-SDK巨坑/</id>
+    <published>2019-11-09T05:48:21.000Z</published>
+    <updated>2019-11-09T07:10:03.670Z</updated>
+    
+    <content type="html"><![CDATA[<p>这个芯片的SDK着实是令人生草，用Android的Toolchain编译被精简过的OpenWRT，而且document有一些谬误需要修正简直令人绝望</p><p>首先F1C200s我是基于Widora的Tiny200开发板做的测试，串口采用CP2102，UART0.<br>在测试过程中按照Tina SDK Document用pack -d命令打包的固件始终不能正常启动，直到我发现pack可以不带任何arg就可以打包<br>然后就是在配置文件中有一个debug目录里面塞了一堆awk脚本，这里会把你的串口重定向到PF gourp导致固件无法正常进行串口通信<br>还有就是配置文件里有很多需要调整的内容，这个就看情况改就好了，和最终设置有关</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;这个芯片的SDK着实是令人生草，用Android的Toolchain编译被精简过的OpenWRT，而且document有一些谬误需要修正简直令人绝望&lt;/p&gt;
+&lt;p&gt;首先F1C200s我是基于Widora的Tiny200开发板做的测试，串口采用CP2102，UART0.&lt;br
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Allwinner" scheme="http://jaga.immo/tags/Allwinner/"/>
+    
+      <category term="F1C200s" scheme="http://jaga.immo/tags/F1C200s/"/>
+    
+  </entry>
   
   <entry>
     <title>新土豆田</title>

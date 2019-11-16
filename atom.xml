@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://jaga.immo/"/>
-  <updated>2019-11-09T07:10:03.670Z</updated>
+  <updated>2019-11-16T07:06:01.314Z</updated>
   <id>http://jaga.immo/</id>
   
   <author>
@@ -15,6 +15,33 @@
   </author>
   
   <generator uri="http://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>cedarx巨坑啊</title>
+    <link href="http://jaga.immo/2019/11/16/cedarx%E5%B7%A8%E5%9D%91%E5%95%8A/"/>
+    <id>http://jaga.immo/2019/11/16/cedarx巨坑啊/</id>
+    <published>2019-11-16T07:04:20.000Z</published>
+    <updated>2019-11-16T07:06:01.314Z</updated>
+    
+    <content type="html"><![CDATA[<p>最近编译Tina Linux的时候遇到了一个很魔幻的坑，当你用CedarX编解码器的时候对他进行自定义会触发一个libz.so无法找到的bug，这个bug经过测试实际上唯一的修正方法大概只能是不要去改CedarX的编解码器配置，放在那里比较好…</p>]]></content>
+    
+    <summary type="html">
+    
+      
+      
+        &lt;p&gt;最近编译Tina Linux的时候遇到了一个很魔幻的坑，当你用CedarX编解码器的时候对他进行自定义会触发一个libz.so无法找到的bug，这个bug经过测试实际上唯一的修正方法大概只能是不要去改CedarX的编解码器配置，放在那里比较好…&lt;/p&gt;
+
+      
+    
+    </summary>
+    
+    
+    
+      <category term="Allwinner" scheme="http://jaga.immo/tags/Allwinner/"/>
+    
+      <category term="F1C200s" scheme="http://jaga.immo/tags/F1C200s/"/>
+    
+  </entry>
   
   <entry>
     <title>全志Tina SDK巨坑</title>
